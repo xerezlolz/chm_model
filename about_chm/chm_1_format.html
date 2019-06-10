@@ -1,0 +1,76 @@
+<html>
+
+<head>
+<meta HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=gb2312">
+<LINK href="/cn.css" type=text/css rel=StyleSheet>
+<title>关于CHM - CHM文件简介</title>
+</head>
+
+<body bgcolor="white">
+<H2 align=left><font face="Tahoma">Easy CHM 关于CHM - </font><font face="Tahoma">CHM文件简介</font></H2>                
+<hr noshade size="1" color="#000080">
+
+<p>CHM 文件是微软 1998 年推出的基于 html 文件特性的帮助文件系统，以替代早先的 WinHelp 帮助系统，在 windows98 中把 CHM 类型文件称作“已编译的 HTML 帮助文件”。被Internet Explorer 支持的 JavaScript、VBScript、ActiveX、Java Applet、Flash、html 图像文件（GIF、JPEG、PNG）、音频视频文件（AU、MIDI、WAV、AVI）等等，CHM 同样支持，并可以通过 URL 地址与因特网联系在一起。       
+</p>
+
+<p><br> 
+在 windows98 及以后的 windows 版本中，CHM 文件的运行程序（hh.exe，27K）已是操作系统的一部分，它控制支持ActiveX 组件的网页浏览器（如微软的 Internet Explorer 3.0 以上版本）来解释并运行 CHM 文件中的元素，这样的好处就是能跨平台运行 CHM 文件，只要有不同平台上的运行器和浏览器，CHM 文件就不再需要重新进行编译而直接使用，在不同语言的操作系统下，CHM 文件也会自动显示对应语种的菜单。<br>       
+</p>
+
+<p>CHM文件的优点如下：</p> 
+
+<ol>
+  <li><b>CHM文件体积小，便于分发和传播</b> - CHM具有对文本文件的高压缩比。</li>     
+  <li><b>CHM文件由微软操作系统支持（WIN98及以上），不必担心在其他电脑上无法阅读您制作的CHM</b>。</li>
+  <li><b>CHM文件拥有性能优异、快速的全文检索</b>，特别在海量文字检索上速度飞快      
+    - 当然，为了达到飞快的检索速度，微软CHM编译器在编译的时候会先分析网页源文件的关键词并制作成索引信息存放在CHM文件里，这样带来的不利的方面是：1）编译带全文检索的CHM文件时要消耗一定的时间；2）带全文检索的CHM文件体积比不带全文检索的CHM文件的体积大一倍。在这里也可以了解一下CHM的全文检索与原来的WinHelp      
+    帮助系统的区别：WinHelp 帮助系统在制作的时候并不在.HLP文件里直接保存全文检索信息，所以编译速度快，文件体积小，但是在使用每个.HLP的全文检索前，必须经历一次制作全文检索信息的过程，当然，.HLP的全文检索是单独保存在硬盘上的。</li>     
+  <li><b>CHM文件的阅读器由操作系统直接提供，而且这是个类似IE的阅读器或浏览器</b> 
+    - 我认为CHM的阅读器可以看作是IE的一个子集，目前只是在兼容性上不如IE强大。</li>    
+  <li><b>CHM文件是基于 html 文件特性的帮助文件系统</b>，您应该特别注意<b>基于 html  
+    文件特性</b>这点，为了更好地利用这个特性，您应该更多地用CHM格式以网页为主体来组织您的源文件结构，也就是说：在制作CHM前，您最好先制作网页，并利用网页连缀起您的其他文件，这样才能最大程度利用CHM的特性。有的用户在CHM里只加入纯文本的.TXT文件，尽管功能上可以这样做，但您制作的CHM文件没有利用上<b>CHM文件基于 html 
+    文件这一特性</b>，同时您制作的CHM也不在可以使用全文检索功能等。</li>
+  <li><b>CHM格式类似压缩文件，而且CHM支持反编译</b> -     
+    也就是说：您可以把任何类型文件包括在CHM里，并且随时可以反编译-也就是解压缩，以便二次编辑后再制作成CHM文件。</li>
+  <li><b>在不同语言的操作系统下，CHM    
+    文件也会自动显示对应语种的菜单 -    
+    按钮等外观上的文字也会自动显示对应语种的文字</b>。<br>
+<br></li>
+</ol>
+<p></p>
+<p>CHM文件的缺点如下（仅针对微软CHM支持系统的目前版本而言）：</p>
+<ol>
+  <li><b>CHM文件不能保护您的源文件不被他人得到 - 由于CHM文件可以直接被反编译</b>，所以您不要把需要内容保护的文件制作成CHM格式，另外，您也不必尝试利用JAVASCRIPT等网页技术去保护您的文件内容   
+    - 理由很简单：CHM文件可以直接被反编译。任何格式制作的电子文档只要可以被反编译（我这里指的是完全反编译），就已经不再有任何的安全性可言，这个意思就是：如果可以被反编译，即便表面加上密码也形同虚设   
+    -   
+    为了更好地理解反编译，您可以下载“国华软件”推出的几款针对CHM格式、EXE格式的电子书的强大的反编译软件   
+    -   
+    “国华软件”推出的反编译软件都采取的不需要运行电子书程序直接就可以读取电子书的全部内容并实现反编译的高级技术。</li>
+  <li><b>CHM文件目前对源文件的文件名有特殊限制，CHM文件能很好地支持标准文件名，比如：a~z；A~Z；0~9以及下划线_</b>。如果您希望正确地制作出CHM文件，请先检查您的源文件的文件名或目录名是否合乎这个标准，特别是文件名或目录名里存在空格或&amp;等符号时   
+    -  
+    尽管这些文件名在操作系统里是合法的文件名，但目前不能被CHM文件很好地支持  
+    -  
+    使用非标准文件名有可能在有些时候出现一些不可预期的错误，比如网页打不开,图形无法正确显示等。</li>
+  <li><b>CHM文件对一些非常规的网页指令或非法网页指令的容错性目前不太理想</b> 
+    - 不如IE的容错性，关于这方面的解释请参看：<a href="../configuration_settings/chm_settings/chm_settings_1_general.html">导致CHM编译失败的主要因素</a>。</li>  
+  <li><b>CHM文件对WORD保存的网页文件支持性不好 - 有一些WORD的网页连接指令无法识别导致个别图片无法显示</b>。我们知道，WORD在保存网页的时候会在网页里加入大量的只供WORD使用的指令，这些指令不是标准的网页指令（所以可以称做是垃圾代码），IE可以识别WORD的指令，但CHM目前不能完全支持   
+    - 特别是针对一些WORD使用的图片链接指令无法完全支持，这有可能导致部分图片无法显示（目前发现比较多地集中在一些.PNG与.jpg称对出现的地方）。一般说来，WROD并不是制作网页的首选的工具，制作网页的优秀工具是   
+    FRONTPAGE 或 DREAMWEAER。</li>  
+  <li><b>CHM文件的系统支持存在一些小的BUG</b>，比如CHM打开后，系统在记录CHM信息的时候，只记录CHM的文件名而忽略了CHM文件的具体路径信息，当用户的不同目录下存在同名的CHM文件时，个别情况下会无法打开CHM文件   
+    - 解决办法：给CHM的文件名改个名字。根据经验判断，当遇到CHM文件无法打开时，首先尝试的解决办法就是改文件名（特别是改为英文文件名）。</li> 
+  <li><b>CHM只支持本地浏览</b>。这个的意思就是说：CHM文件必须真实存在于您本地的电脑上您才可以正常浏览。比如：您不要尝试在局域网里直接打开其他电脑上的CHM文件 
+    - 您必须先把其他电脑上的CHM文件下载或复制到您自己的电脑里，才可以正常地打开并浏览里面的内容。</li>
+</ol>
+
+<br>
+<br>
+<br><br><br><br>
+<table width="100%" cellspacing="0" cellpadding="0"
+style="margin-top: 0pt; border-collapse: collapse;"> 
+<tr> <td align="right" style="background-color=white; border-top: 1px solid gray;"> 
+<a href="http://www.etextwizard.com/cn/" target="_blank" style="font-family: Tahoma, Verdana;
+ font-size: 11px; text-decoration: none;">版权所有 &copy; 2000-2007  国华软件 保留全部权利.</a> 
+</TD>
+</TR></table>
+</body>
+</html>
